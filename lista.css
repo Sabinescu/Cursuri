@@ -1,0 +1,44 @@
+div {
+  margin: 10px;
+  padding: 10px;
+}
+
+div[foaie] {
+  background: repeating-linear-gradient(
+    0deg,
+    #FFFBD2,
+    #FFFBD2 20px,
+    rgba(0, 0, 0, 0.2) 20px,
+    rgba(0, 0, 0, 0.2) 21px
+  );
+}
+
+div[lista] > input {
+  font-size: 300%;
+    font-weight: bold;
+  text-align: center;
+  background-color: transparent;
+  border: 0;
+  text-decoration: underline;
+}
+
+div[magazin] > input[type="text"] {
+  font-size: 200%;
+  background-color: transparent;
+  border: 0;
+  text-decoration: underline;
+}
+
+div[produs] > input[type="text"] {
+ 
+  background-color: transparent;
+  border: 0;
+}
+input[type="number"]{
+  background-color: transparent;
+  border: 0
+  
+}
+div[lista]{
+  
+}
